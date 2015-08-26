@@ -9,7 +9,7 @@ for(var name in Game.creeps) {
 
 	if(creep.memory.role == 'builder') {
 
-		if(creep.carry.energy == 0) {
+		if(creep.carry.energy === 0) {
 			creep.moveTo(Game.spawns.Spawn1);
 			Game.spawns.Spawn1.transferEnergy(creep);
 		}
