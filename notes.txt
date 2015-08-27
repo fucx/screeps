@@ -1,0 +1,9 @@
+
+Spawn a harvester:
+Game.spawns.Spawn1.createCreep([WORK, CARRY, MOVE], null, {role: 'harvester'});
+
+Spawn an upgrader:
+Game.spawns.Spawn1.createCreep([WORK, CARRY, MOVE], null, {role: 'upgrader'});
+
+Spawn a builder:
+Game.spawns.Spawn1.createCreep([WORK, WORK, CARRY, CARRY, MOVE], null, {role: 'builder'});
